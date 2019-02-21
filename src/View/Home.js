@@ -15,12 +15,6 @@ export default class Home extends Component {
     return (
       <div>
         <h1>Haloo gays😍</h1>
-        <Link to="/about">
-        <Button variant="contained" color="primary">Klik aku dong</Button>
-        </Link>
-        <input onChange={input=>this.setState({text:input.target.value})} send={this.state.text}>
-        </input>
-        <Contoh></Contoh>
       </div>
     )
   }
